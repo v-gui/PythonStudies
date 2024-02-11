@@ -20,11 +20,6 @@ print(separar_endereco("Babaçu 500"))
 print(separar_endereco("Rio Branco 23"))
 print(separar_endereco("Quirino dos Santos 23 b"))
 print(separar_endereco("Calle Sagasta, 26"))
-print(separar_endereco("4, Rue de la République"))
-print(separar_endereco("100 Broadway Av"))
-print(separar_endereco("Calle Sagasta, 26"))
-print(separar_endereco("Calle 44 No 1991"))
-
 
 # Já no segundo caso, como há 2 itens com mais de um espaço, o código anterior não funciona mais.
 # Para este caso criei duas strings, uma para o nome e outra para o número.
