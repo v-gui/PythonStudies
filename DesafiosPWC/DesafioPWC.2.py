@@ -42,3 +42,6 @@ print(separar_endereco("Calle 44 No 1991"))
 # separando o nome da rua até encontrar algum digito, o qual o mesmo irá indicar o número da rua.
 
 # Contruindo strings diferentes e retornando-as como lista.
+
+# E a exceção do ultimo caso para toda vez que aparecer  o "No",
+# funcionar como uma barreira para selecionar tudo que aparecer antes como nome da rua.
