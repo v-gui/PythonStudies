@@ -17,6 +17,7 @@ def separar_endereco(endereco):
 
 print(separar_endereco("Miritiba 339"))
 print(separar_endereco("Babaçu 500"))
+print(separar_endereco("Cambuí 804B"))
 print(separar_endereco("Rio Branco 23"))
 print(separar_endereco("Quirino dos Santos 23 b"))
 print(separar_endereco("Calle Sagasta, 26"))
