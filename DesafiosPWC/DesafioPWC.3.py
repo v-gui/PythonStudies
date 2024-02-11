@@ -32,10 +32,9 @@ print(separar_endereco("100 Broadway Av"))
 print(separar_endereco("Calle Sagasta, 26"))
 print(separar_endereco("Calle 44 No 1991"))
 
-# Para esses casos mais especificos, não consegui resolve-los sem a utilização de biblioteca RE.
-# que pelo que entendi padroniza diferentes tipos de endereços.
+# Para esses casos mais especificos, o 2° código resolve a maioria dos problemas, apenas quando no caso os números vem na frente no input, não consegui resolver por lá.
 
-# Fiz as mudanças nos dois primeiros casos, para que o número encontrado fosse colocado ao final da string
+#Então usei essa biblioteca RE, que padroniza diferentes tipos de endereço,
+# fiz as mudanças nos dois casos onde o número vem no inicio do input, para que o número encontrado fosse colocado ao final da string
 
-# E a exceção do ultimo caso para toda vez que aparecer  o "No",
-# funcionar como uma barreira para selecionar tudo que aparecer antes como nome da rua.
+
